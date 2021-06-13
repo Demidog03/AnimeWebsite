@@ -1,0 +1,123 @@
+body {
+
+    margin: 0 auto;
+}
+
+
+.mainContent{
+    height: 800px;
+    background-image: url(https://wallpapercave.com/wp/wp2150006.png);
+    position: relative;
+    bottom: 20px;
+}
+
+.mainText{
+    top: 150px;
+    font-size: 100px;
+    position: relative;
+    left: 100px;
+    color: white;
+
+}
+.mainText2{
+    top: 150px;
+    font-size: 120px;
+    position: relative;
+    left: 450px;
+    color: white;
+
+}
+.mainMiniText{
+    top: 250px;
+    font-size: 45px;
+    position: relative;
+    left: 520px;
+    color: white;
+    text-indent: 50px;
+}
+.mainMiniText2{
+    top: 350px;
+    font-size: 30px;
+    position: relative;
+    left: 800px;
+    color: white;
+    text-indent: 50px;
+}
+.button1 {
+    background-color: white;
+  border: gray;
+  color: black;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  position: relative;
+    left: 1240px;
+    top: 400px;
+  cursor: pointer;
+    transition: all 0.5s;
+    cursor: pointer;
+  margin: 5px;
+}
+.button2 {
+    background-color: white;
+  border: gray;
+  color: black;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+    left: 400px;
+    top: 300px;
+  cursor: pointer;
+    transition: all 0.5s;
+    cursor: pointer;
+  margin: 5px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.Name {
+    background-color: white;
+  border: gray;
+  color: black;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+    left: 380px;
+    top: 300px;
+  cursor: pointer;
+    letter-spacing: 3px;
+    transition: all 0.5s;
+    cursor: text;
+  margin: 5px;
+}

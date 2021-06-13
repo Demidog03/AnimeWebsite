@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Final Anime.com</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style2.css">
+        <script src="main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
+    </head>
+    <style>
+        * {
+          font-family: 'Montserrat', sans-serif;
+        }
+        .w100 {
+          font-weight: 100;
+        }
+        .w200 {
+          font-weight: 200;
+        }
+        .w300 {
+          font-weight: 300;
+        }
+        .w400 {
+          font-weight: 400;
+        }
+    </style>
+    <script>
+    $('.carousel').carousel({
+        interval: 2000;
+        pause: "hover";
+        ride: true;
+        wrap: true;
+    })
+    </script>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-blue py-5 shadow-lg p-3">
+          <a class="navbar-brand" href="index.html" style="font-size: 50px; "><b>FinalAnime.com</b></a>
+          <button class="navbar-toggler" type="button" style="border: 3px solid blue" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown" style="max-width: 800px; min-width: auto !important;">
+            <ul class="navbar-nav" style="max-width: 400px; min-width: auto !important;">
+              <li class="nav-item active" >
+                <a class="nav-link" href="index.html" style="color: #f700c8;font-size: 20px;"><b>Home</b> <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #f700c8;font-size: 20px;" href="#animeRadio"><b>Radio</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"style="color: #f700c8;font-size: 20px;"  href="#latestAnime"><b>Latest anime</b></a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" style="color: #f700c8; font-size: 20px;" href="#trendAnime"><b>Trending anime</b></a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" style="color: #f700c8;" href="https://www.instagram.com/demidog777/"><b>About Me</b></a>
+              </li>
+                <li class="nav-item">
+                <a href="#" class="search-switch"><span class="icon_search"></span></a>
+              </li>
+                <!--              notificaionsphp-->
+
+                <div class='btn-group' style='position: relative; left: 100px;'>
+                  <button type='button' id='dropdownMenu2' class='btn btn-primary btn-lg dropdown-toggle' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+
+                      <?php
+                $sql = "SELECT * FROM notifications";
+                $result=mysqli_query($conn4, $sql);
+                $queryResults = mysqli_num_rows($result);
+                      echo
+                    "<b>".$queryResults." notifications<b>";
+
+                        ?>
+                  </button>
+
+
+                  <div class='dropdown-menu'>
+                      <?php
+                $sql = "SELECT * FROM notifications ORDER BY date DESC";
+                $result=mysqli_query($conn4, $sql);
+                $queryResults = mysqli_num_rows($result);
+
+                if($queryResults > 0){
+                    while($row = mysqli_fetch_assoc($result)){
+                        echo
+                    "<a class='dropdown-item'><b>".$row['date']."<b></a>
+                    <a class='dropdown-item' href='".$row['status']."'><b>".$row['name']."<b></a>
+                    <a class='dropdown-item' href='".$row['status']."'>".$row['message']."</a>
+                    <div class='dropdown-divider'></div>
+                    <div class='dropdown-divider'></div>
+                    <div class='dropdown-divider'></div>";
+                            }
+                }
+                        ?>
+                  </div>
+
+                </div>
+
+
+              <!--              notificaionsphp-->
+            </ul>
+          </div>
+
+
+        </nav>
+
+        <div class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+
+            <div class="carousel-inner">
+            <div  class="carousel-item active">
+                <div class="hovereffect">
+                    <img class="d-block w-100" src="https://images2.alphacoders.com/106/thumb-1920-1065611.png" alt="First slide">
+                <div class="overlay">
+                   <a class="info" href="KimetsuNoYaiba.html"><b>A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.</b></a>
+
+                </div>
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="slides"><b>Demon Slayer</b></h5>
+                    <p>Released: 2020</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="hovereffect">
+                    <img class="d-block w-100" src="https://wallpapermemory.com/uploads/786/levi-ackerman-wallpaper-1080p-206502.jpg" alt="Second slide">
+                <div class="overlay">
+                   <a class="info" href="attackOnTitans.html" style="color: white;"><b>It is set in a world where humanity lives inside cities surrounded by enormous walls that protect them from gigantic man-eating humanoids known as Titans; the story follows Eren Yeager, who vows to exterminate the Titans after a Titan brings about the destruction of his hometown and the death of his mother.</b></a>
+
+                </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="slides"><b>Attack on Titan</b></h5>
+                    <p>Released: 2014</p>
+                  </div>
+
+            </div>
+            <div class="carousel-item">
+
+                <div class="hovereffect">
+                    <img class="d-block w-100"src="https://damehiki.com/wp-content/uploads/2019/03/Tate-no-Yuusha-no-Nariagari-The-Rising-of-the-Shield-Hero-by-DeathToTotoro-1024x576.jpg"alt="Third slide">
+                <div class="overlay">
+                   <a class="info" href="#" style="color: white;"><b>Plot. Naofumi Iwatani, an easygoing Japanese youth, was summoned into a parallel world along with three other young men from parallel universes to become the world's Cardinal Heroes and fight inter-dimensional hordes of monsters called Waves.</b></a>
+
+                </div>
+                </div>
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="slides"><b>The Rising of the Shield Hero</b></h5>
+                    <p >Released: 2019</p>
+                  </div>
+
+
+            </div>
+              <div class="carousel-item">
+                  <div class="hovereffect">
+                    <img class="d-block w-100"src="https://wallpaperscave.com/images/thumbs/download/1920x1080/18/06-25/anime-violet-evergarden-61182.jpg" alt="Forth slide">
+                <div class="overlay">
+                   <a class="info" href="#" style="color: white;"><b>In the aftermath of a great war, Violet Evergarden, a young female ex-soldier, gets a job at a writers' agency and goes on assignments to create letters that can connect people. After four long years of conflict, The Great War has finally come to an end.</b></a>
+                </div>
+
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="thirdSlide"><b>Violet Evergarden</b></h5>
+                    <p class="ThirdSlideP"><b>Released: 2019</b></p>
+                  </div>
+            </div>
+
+
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+
+<!--        CARDS-->
+
+        <div class="container1 clearfix"><a name="trendAnime"></a>
+            <center><p class="menuText1"><b>Trending now</b></p></center>
+<!--            CARDS COLUMNS-->
+            <center><div class="container">
+              <div class="card">
+                <h3 class="title">Card 1</h3>
+                <img class="image__img" src="images/my-hero-academia_portrait-key-art-normal-small_101358.png">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">My Hero Academia</div>
+                    <div class="image__year">2016</div>
+                    <div class="image__desciption">
+                      Middle school student Izuku Midoriya wants to be a hero more than anything, but he's part of the 20% without a Quirk.
+                      Unwilling to give up his dream, he plans to take the exam and be accepted into a high school for budding heroes...
+                    </div>
+                </div>
+              </div>
+                <div class="card">
+                <h3 class="title">Card 1</h3>
+                <img class="image__img" src="images/cardfight-vanguard-overdress_portrait-key-art-normal-small_101250.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">Cardfight! Vanguard overDress</div>
+                    <div class="image__year">2021</div>
+                    <div class="image__desciption">
+                      A new story in the Vanguard series awaits! Unable to cope with his unique abilities, Yu-yu Kondo flees home, encountering Vanguard in action.
+                      His journey leads to a world of lore, cardfights, and friendships...
+                    </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <h3 class="title">Card 3</h3>
+                <img class="image__img" src="images/blue-reflection-ray_portrait-key-art-normal-small_101473.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">Blue Reflection Ray</div>
+                    <div class="image__year">2021</div>
+                    <div class="image__desciption">
+                      Optimistic Hiori can’t turn away anyone in need.
+                      Awkward Ruka can’t make friends, even when she tries.
+                      But they have one thing in common: they’re magical girls, Reflectors!
+                    </div>
+                </div>
+              </div>
+              <div class="card">
+                <h3 class="title">Card 4</h3>
+                <img class="image__img" src="images/the-world-ends-with-you-the-animation_portrait-key-art-normal-small_100571.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">The World Ends With You The Animation</div>
+                    <div class="image__year">2021</div>
+                    <div class="image__desciption">
+                      Neku awakens in the middle of Shibuya's bustling Scramble Crossing with no memory of how he got there.
+                      Little does he know, he's been transported to an alternate plane of existence known as the Underground...
+                    </div>
+                </div>
+              </div>
+            </div></center>
+
+            <br>
+            <br>
+
+            <center><div class="container">
+              <div class="card">
+                <h3 class="title">Card 1</h3>
+                <img class="image__img" src="images/back-arrow_portrait-key-art-normal-small_98953.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">BACK ARROW</div>
+                    <div class="image__year">2021</div>
+                    <div class="image__desciption">
+                      Lingalind is a land enclosed by the Wall.
+                      The Wall covers, protects, cultivates, and nurtures the land.
+                      One day in Edger, a village on the outskirts of Lingalind, a mysterious man named Back Arrow appears...
+                    </div>
+                </div>
+              </div>
+                <div class="card">
+                <h3 class="title">Card 1</h3>
+                <img class="image__img" src="images/sd-gundam-world-heroes_portrait-key-art-normal-small_101662.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">SD GUNDAM WORLD HEROES</div>
+                    <div class="image__year">2021</div>
+                    <div class="image__desciption">G Gundam opens at the start of the 13th Gundam Fight in Future Century year 60 and follows Neo Japan's Domon Kasshu, fighter of his nation's Shining Gundam and bearer of the coveted "King of Hearts" martial arts crest.</div>
+                </div>
+              </div>
+
+              <div class="card">
+                <h3 class="title">Card 3</h3>
+                <img class="image__img" src="images/ssssdynazenon_portrait-key-art-normal-small_100659.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">SSSS.DYNAZENON</div>
+                    <div class="image__year">2021</div>
+                    <div class="image__desciption">
+                      When Yomogi Asanaka, a first-year student at Fujiyokidai High School, meets Gauma, he claims to be a "kaiju user."
+                      But the appearance of a kaiju followed by the entry of the gigantic robot, Dynazenon, backs up his mysterious words...
+                    </div>
+                </div>
+              </div>
+              <div class="card">
+                <h3 class="title">Card 4</h3>
+                <img class="image__img" src="images/hetalia-axis-powers_portrait-key-art-normal-small_101501.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">Hetalia</div>
+                    <div class="image__year">2009</div>
+                    <div class="image__desciption">
+                      Forget everything you learned in history class, and imagine all the nations of the world as cute guys hanging out on a wildly inappropriate reality show...
+                    </div>
+                </div>
+              </div>
+            </div></center>
+
+        </div>
+
+        <div class="container2 clearfix"><a name="latestAnime"></a>
+            <center><p class="menuText2"><b>Latest series</b></p></center>
+            <center><div class="container">
+              <div class="card">
+                <h3 class="title">Card 1</h3>
+                <img class="image__img" src="images/strike-witches-road-to-berlin_portrait-key-art-normal-small_96605.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">Strike Witches: Road to Berlin</div>
+                    <div class="image__year">2020</div>
+                    <div class="image__desciption">
+                      After disbanding, the girls of the 501st Joint Fighter Wing return to face the threat of the Neuroi again, now joined by a new member, Shizuka Hattori.
+                    </div>
+                </div>
+              </div>
+                <div class="card">
+                <h3 class="title">Card 1</h3>
+                <img class="image__img" src="images/bottom-tier-character-tomozaki_portrait-key-art-normal-small_98975.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">Bottom-tier Character Tomozaki</div>
+                    <div class="image__year">2021</div>
+                    <div class="image__desciption">
+                      Tomozaki Fumiya doesn’t fit in, well he wants to, but he doesn’t know how...
+                    </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <h3 class="title">Card 3</h3>
+                <img class="image__img" src="images/17312-763287.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">K Project</div>
+                    <div class="image__year">2012</div>
+                    <div class="image__desciption">
+                      Shiro is an easygoing teenager content with just being a student - until his seemingly perfect life is halted when a bloodthirsty clan, glowing red with fire, attempts to kill him in the streets...
+                    </div>
+                </div>
+              </div>
+              <div class="card">
+                <h3 class="title">Card 4</h3>
+                <img class="image__img" src="images/link-click_portrait-key-art-normal-small_102073.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">LINK CLICK</div>
+                    <div class="image__year">2021</div>
+                    <div class="image__desciption">
+                      Using superpowers to enter their clientele’s photos one by one, Cheng Xiaoshi and Lu Guang take their work seriously at “Time Photo Studio,”
+                    </div>
+                </div>
+              </div>
+            </div></center>
+
+            <br>
+            <br>
+
+            <center><div class="container">
+              <div class="card">
+                <h3 class="title">Card 1</h3>
+                <img class="image__img" src="images/the-quintessential-quintuplets_portrait-key-art-normal-small_101291.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">The Quintessential Quintuplets</div>
+                    <div class="image__year">2019</div>
+                    <div class="image__desciption">
+                      Futaro is about to take on five times the work and quintuple the trouble when he gets a job tutoring a set of quintuplets!
+                    </div>
+                </div>
+              </div>
+                <div class="card">
+                <h3 class="title">Card 1</h3>
+                <img class="image__img" src="images/22859-1091507.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">A Boring World Where the Concept of Dirty Jokes Doesn't Exist</div>
+                    <div class="image__year">2015</div>
+                    <div class="image__desciption">
+                      It's 16 years since the "Law for Public Order and Morals in Healthy Child-Raising" banned coarse language in the country.
+                      When Tanukichi Okuma enrolls...
+                    </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <h3 class="title">Card 3</h3>
+                <img class="image__img" src="images/maken-ki_portrait-key-art-clean-thumb_45881.jpeg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">Maken-Ki</div>
+                    <div class="image__year">2011</div>
+                    <div class="image__desciption">
+                      Takeru enrolled in Tenbi Academy because the girl-to-guy ratio is, like, three girls for every guy.
+                      But this bevy of bombshells is actually a school where teens beef up their combat skills using a magic power thingy called a Maken.
+                    </div>
+                </div>
+              </div>
+              <div class="card">
+                <h3 class="title">Card 4</h3>
+                <img class="image__img" src="images/23419-1189513.jpg">
+                <div class="image__overlay image__overlay--primary">
+                    <div class="image__title">KonoSuba - God's Blessing on This Wonderful World!</div>
+                    <div class="image__year">2016</div>
+                    <div class="image__desciption">
+                      A traffic accident brings his disappointingly brief life to an end for Kazuma Sato, a hikikomori (shut-in) die-hard fan of games, anime...
+                    </div>
+                </div>
+              </div>
+            </div></center>
+
+        </div>
+
+        <div class="container3 clearfix">
+            <center><p class="menuText3"><b>Anime Radio</b></p> </center>
+            <center><iframe style="position: relative; top: 20px; min-width: auto !important;" width="70%" height="600px;"
+                    src="https://www.youtube.com/embed/hQUJI9It0Cs?autoplay=1&mute=1">
+            </iframe></center>
+
+        </div>
+        <a name="animeRadio"></a>
+                <!-- Footer -->
+        <footer class="bg-dark text-center text-white" style="position: relative; top: 298px;">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/olzhas.otep.9" role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+
+              <!-- Twitter -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/demidog777/" role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+
+              <!-- Google -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/demidog777/" role="button"
+                ><i class="fab fa-google"></i
+              ></a>
+
+              <!-- Instagram -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/demidog777/" role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+
+              <!-- Linkedin -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/demidog777/" role="button"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+
+              <!-- Github -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/demidog777/" role="button"
+                ><i class="fab fa-github"></i
+              ></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+              <form action="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <p class="pt-2">
+                      <strong>Sign up for our newsletter</strong>
+                    </p>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-5 col-12">
+                    <!-- Email input -->
+                    <div class="form-outline form-white mb-4">
+                      <input type="email" id="form5Example2" class="form-control" />
+                      <label class="form-label" for="form5Example2">Email address</label>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <!-- Submit button -->
+                    <button type="submit" onclick="submit()" class="btn btn-outline-light mb-4">
+                      Subscribe
+                    </button>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+              <p>
+                Hello! Welcome to the FinalAnime.com! My name is Olzhas and I am student of Astana IT university. Actually this is just a project for final assessment.I  put my heart and soul into creating this site. If you have questions, you can contact me: o.otep@mail.ru.
+              </p>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </body>
+
+</html>

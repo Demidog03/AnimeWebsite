@@ -1,4 +1,7 @@
 <?php
+function reveal_notifications($conn4){
+
+}
 
 function check_login($con)
 {

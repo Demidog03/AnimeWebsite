@@ -62,8 +62,8 @@ session_start();
             <form method="post">
                 <div style="font-size: 40px;margin: 10px;color: white;"><b>Signup</b></div>
 
-                <input id="text" type="text" name="user_name"><br><br>
-                <input id="text" type="password" name="password"><br><br>
+                <input id="text" type="text" name="user_name" placeholder="Username"><br><br>
+                <input id="text" type="password" name="password" placeholder="Password"><br><br>
                 <div class="wrap">
                     <div class="wrap">
                       <button class="button" type="submit">Submit</button>
@@ -71,7 +71,7 @@ session_start();
                 </div>
                 <br><br>
 
-                <a href="login.php" style="color: white; position: relative; top:60px;">Click to Login</a><br><br>
+                <a href="login.php" style="color: white; position: relative; top:60px;">Already have an account?</a><br><br>
             </form>
         </div>
 

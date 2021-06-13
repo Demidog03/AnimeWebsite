@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dattebayo! Quiz</title>
+    <link rel="stylesheet" href="quiz_style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
+</head>
+    <style>
+        * {
+          font-family: 'Montserrat', sans-serif;
+        }
+        .w100 {
+          font-weight: 100;
+        }
+        .w200 {
+          font-weight: 200;
+        }
+        .w300 {
+          font-weight: 300;
+        }
+        .w400 {
+          font-weight: 400;
+        }
+    </style>
+<body>
+    <br>
+    <div style="font-size: 50px; color:white; text-align: center;"><b>Anime Test</b></div>
+    <br>
+    <br>
+    <div class="quiz" id="quiz">
+        <div class="quiz-questions" id="questions">  </div>
+
+        <div class="quiz-indicator" id="indicator">1/10</div>
+
+        <div class="quiz-results" id="results">
+            <div class="quiz-results-item">
+                <div class="quiz-results-item-question">
+                    Question 1
+                </div>
+                <ul class="quiz-results-item-answers">
+                    <li>Answer 1</li>
+                    <li>Answer 2</li>
+                </ul>
+                <div class="quiz-results-item-image">Image 1</div>
+            </div>
+        </div>
+        <div class="quiz-controls">
+            <button class="btn-next" id="btn-next" disabled>Next question</button>
+            <button class="btn-restart" id="btn-restart">Restart</button>
+        </div>
+    </div>
+
+
+
+
+    <script src="quiz_js.js"></script>
+</body>
+</html>

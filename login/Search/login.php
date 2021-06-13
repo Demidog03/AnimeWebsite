@@ -5,7 +5,7 @@ session_start();
 	include("connection.php");
 	include("functions.php");
 
-
+include("dbnotifications.php");
 	if($_SERVER['REQUEST_METHOD'] == "POST")
 	{
 		//something was posted
@@ -83,8 +83,8 @@ session_start();
             <form method="post">
                 <div style="font-size: 40px;margin: 10px;color: white;"><b>Login</b></div>
 
-                <input id="text" type="text" name="user_name"><br><br>
-                <input id="text" type="password" name="password"><br><br>
+                <input id="text" type="text" name="user_name" placeholder="Username"><br><br>
+                <input id="text" type="password" name="password" placeholder="Password"><br><br>
                 <div class="wrap">
                     <div class="wrap">
                       <button class="button" type="submit">Submit</button>

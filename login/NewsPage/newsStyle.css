@@ -1,0 +1,38 @@
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(176,67,215,1) 100%);
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.animeNews-container{
+/*    text-align: center;*/
+    position: relative;
+    left: 200px;
+    border: solid;
+    width: 1200px;
+    color: white;
+}
+
+.animeNews-box{
+    border-bottom: solid;
+    position: relative;
+    font-size: 20px;
+    background: rgb(56,10,95);
+background: radial-gradient(circle, rgba(56,10,95,1) 100%, rgba(176,67,215,1) 100%);
+}
+.animeNews-box img{
+    position: relative;
+    left: 300px;
+}
+
+.news_text{
+    width: 750px;
+/*    text-align: left;*/
+    position: relative;
+    left: 250px;
+}
