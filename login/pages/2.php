@@ -187,14 +187,14 @@ $numComments = $sqlNumComments->num_rows;
     </script>
     <body>
         <nav class="navbar navbar-expand-lg navbar-blue py-5 shadow-lg p-3">
-          <a class="navbar-brand" href="index.html" style="font-size: 35px; position: relative; left:40px;"><b>FinalAnime.com</b></a>
+          <a class="navbar-brand" href="http://localhost/login/pages/index1.php" style="font-size: 35px; position: relative; left:40px;"><b>Dattebayo.com</b></a>
           <button class="navbar-toggler" type="button" style="border: 3px solid blue" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown" style="max-width: 800px; min-width: auto !important; position: relative; left: -85px;">
             <ul class="navbar-nav" style="max-width: 800px; min-width: auto !important; position: relative; top: 5px;">
               <li class="nav-item active" >
-                <a class="nav-link" href="index.html" style="color: #f700c8;font-size: 20px; width: 70px;"><b>Home</b> <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="http://localhost/login/pages/index1.php" style="color: #f700c8;font-size: 20px; width: 70px;"><b>Home</b> <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" style="color: #f700c8;font-size: 20px;" href="#animeRadio"><b>Radio</b></a>
@@ -280,8 +280,8 @@ $numComments = $sqlNumComments->num_rows;
             <div class="animeText2 w400" style="position: relative; bottom: 350px; font-size: 20px; max-width: 800px; min-width: auto !important;">A new story in the Vanguard series awaits! Unable to cope with his unique abilities, Yu-yu Kondo flees home, encountering Vanguard in action. His journey leads to a world of lore, cardfights, and friendships. Prepare for a new generation of cardfighters!</div>
         </div>
         <div class="animeContent2 clearfix">
-            <center style="position: relative; top: 60px;"><iframe src="playerjs.html?[{"title":"1-season","folder":[{"title":"1-episode","file":"[SD]https://ndisk.cizgifilmlerizle.com/animes/Watch%20Kimetsu%20no%20Yaiba%20%28Dub%29%20Episode%201.mp4?st=q-4khXgta_KI4n8IKJquaA&e=1622498214,[HD]https://ndisk.cizgifilmlerizle.com/animes/Watch%20Kimetsu%20no%20Yaiba%20%28Dub%29%20Episode%201.720p.mp4?st=FgvhVRReFeYim67u5nccgQ&e=1622498214","poster":"https://gen.jut.su/uploads/preview/242/0/0/1_1554707039.jpg"},{"title":"2-episode","file":"[SD]https://ndisk.cizgifilmlerizle.com/animes/Watch%20Kimetsu%20no%20Yaiba%20%28Dub%29%20Episode%201.mp4?st=q-4khXgta_KI4n8IKJquaA&e=1622498214,[SD]https://ndisk.cizgifilmlerizle.com/animes/Watch%20Kimetsu%20no%20Yaiba%20%28Dub%29%20Episode%201.720p.mp4?st=FgvhVRReFeYim67u5nccgQ&e=1622498214","poster":"https://gen.jut.su/uploads/preview/242/0/0/2_1555314299.jpg"}]}]" type="text/html" width=1000 height=570 frameborder="0" allowfullscreen></iframe></center>
-
+            <center style="position: relative; top: 60px;"><iframe src="playerjs.html?[{"title":"1-season","folder":[{"title":"1-episode","file":" [HD]https://storage.googleapis.com/long-perception-315214/KM6XUOWJFR8/st22_boku-no-hero-academia-episode-1.1623616397.mp4,[SD]https://storage.googleapis.com/long-perception-315214/KM6XUOWJFR8/st22_boku-no-hero-academia-episode-1.1623616397.mp4"},{"title":"2-episode","file":" [HD] https://storage.googleapis.com/double-balm-312516/RF2ZSTUCG7II/st23_boku-no-hero-academia-episode-2.1623438304.mp4 ,[SD] https://storage.googleapis.com/double-balm-312516/RF2ZSTUCG7II/st23_boku-no-hero-academia-episode-2.1623438304.mp4"},{"title":"3-episode","file":" [HD] https://storage.googleapis.com/double-balm-312516/8P5LAWZWGWHT/st23_boku-no-hero-academia-episode-3.1623402059.mp4 ,[SD] https://storage.googleapis.com/double-balm-312516/8P5LAWZWGWHT/st23_boku-no-hero-academia-episode-3.1623402059.mp4"},{"title":"4-episode","file":" [HD] https://storage.googleapis.com/double-balm-312516/272RPJBUX_7Q/23a_1623431005_71524.mp4 ,[SD] https://storage.googleapis.com/double-balm-312516/272RPJBUX_7Q/23a_1623431005_71524.mp4"},{"title":"5-episode","file":" [HD] https://storage.googleapis.com/double-balm-312516/4X84WCLBX9F6/23a_1623428715_71596.mp4 ,[SD] https://storage.googleapis.com/double-balm-312516/4X84WCLBX9F6/23a_1623428715_71596.mp4"},{"title":"6-episode","file":" [HD] https://storage.googleapis.com/phrasal-planet-313105/7WAKP6R15IIX/st23_boku-no-hero-academia-episode-6.1623537891.mp4 ,[SD] https://storage.googleapis.com/phrasal-planet-313105/7WAKP6R15IIX/st23_boku-no-hero-academia-episode-6.1623537891.mp4"},{"title":"7-episode","file":" [HD] https://storage.googleapis.com/double-balm-312516/263DTPNEJCF/st23_boku-no-hero-academia-episode-7.1623439789.mp4 ,[SD] https://storage.googleapis.com/double-balm-312516/263DTPNEJCF/st23_boku-no-hero-academia-episode-7.1623439789.mp4"},{"title":"8-episode","file":" [HD] https://storage.googleapis.com/double-balm-312516/79ZVK1IH3N3Z/st23_boku-no-hero-academia-episode-8.1623395800.mp4 ,[SD] https://storage.googleapis.com/double-balm-312516/79ZVK1IH3N3Z/st23_boku-no-hero-academia-episode-8.1623395800.mp4"}]},{"title":"2-season","folder":[{"title":"1-episode","file":" [HD] https://storage.googleapis.com/double-balm-312516/GT9SYXIBVW1T/st23_boku-no-hero-academia-2nd-season-dub-episode-1.1623406461.mp4 ,[SD] https://storage.googleapis.com/double-balm-312516/GT9SYXIBVW1T/st23_boku-no-hero-academia-2nd-season-dub-episode-1.1623406461.mp4"},{"title":"2-episode","file":" [HD] https://storage.googleapis.com/double-balm-312516/Q1TK21STACDP/st23_boku-no-hero-academia-2nd-season-dub-episode-2.1623408989.mp4 ,[SD] https://storage.googleapis.com/double-balm-312516/Q1TK21STACDP/st23_boku-no-hero-academia-2nd-season-dub-episode-2.1623408989.mp4"},{"title":"3-episode","file":" [HD] https://storage.googleapis.com/phrasal-planet-313105/Y3BPBNBWR9G/st23_boku-no-hero-academia-2nd-season-dub-episode-3.1623533080.mp4 ,[SD] https://storage.googleapis.com/phrasal-planet-313105/Y3BPBNBWR9G/st23_boku-no-hero-academia-2nd-season-dub-episode-3.1623533080.mp4"}]}]" type="text/html" width=1000 height=570 frameborder="0" allowfullscreen></iframe></center>
+                
         </div>
 
 <!--        COMMENTARY SECTION START-->
@@ -477,7 +477,7 @@ $numComments = $sqlNumComments->num_rows;
     }
 </script>
 <!--        COMMENTARY SECTION END-->
-             <!-- Footer -->
+               <!-- Footer -->
         <footer class="bg-dark text-center text-white" style="position: relative; top: 50px;">
           <!-- Grid container -->
           <div class="container p-4">
@@ -514,43 +514,6 @@ $numComments = $sqlNumComments->num_rows;
               ></a>
             </section>
             <!-- Section: Social media -->
-
-            <!-- Section: Form -->
-            <section class="">
-              <form action="">
-                <!--Grid row-->
-                <div class="row d-flex justify-content-center">
-                  <!--Grid column-->
-                  <div class="col-auto">
-                    <p class="pt-2">
-                      <strong>Sign up for our newsletter</strong>
-                    </p>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-md-5 col-12">
-                    <!-- Email input -->
-                    <div class="form-outline form-white mb-4">
-                      <input type="email" id="form5Example2" class="form-control" />
-                      <label class="form-label" for="form5Example2">Email address</label>
-                    </div>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-auto">
-                    <!-- Submit button -->
-                    <button type="submit" onclick="submit()" class="btn btn-outline-light mb-4">
-                      Subscribe
-                    </button>
-                  </div>
-                  <!--Grid column-->
-                </div>
-                <!--Grid row-->
-              </form>
-            </section>
-            <!-- Section: Form -->
 
             <!-- Section: Text -->
             <section class="mb-4">

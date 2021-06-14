@@ -187,14 +187,14 @@ $numComments = $sqlNumComments->num_rows;
     </script>
     <body>
         <nav class="navbar navbar-expand-lg navbar-blue py-5 shadow-lg p-3">
-          <a class="navbar-brand" href="index.html" style="font-size: 35px; position: relative; left:40px;"><b>FinalAnime.com</b></a>
+          <a class="navbar-brand" href="http://localhost/login/pages/index1.php" style="font-size: 35px; position: relative; left:40px;"><b>Dattebayo.com</b></a>
           <button class="navbar-toggler" type="button" style="border: 3px solid blue" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown" style="max-width: 800px; min-width: auto !important; position: relative; left: -85px;">
             <ul class="navbar-nav" style="max-width: 800px; min-width: auto !important; position: relative; top: 5px;">
               <li class="nav-item active" >
-                <a class="nav-link" href="index.html" style="color: #f700c8;font-size: 20px; width: 70px;"><b>Home</b> <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="http://localhost/login/pages/index1.php" style="color: #f700c8;font-size: 20px; width: 70px;"><b>Home</b> <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" style="color: #f700c8;font-size: 20px;" href="#animeRadio"><b>Radio</b></a>
@@ -477,7 +477,7 @@ $numComments = $sqlNumComments->num_rows;
     }
 </script>
 <!--        COMMENTARY SECTION END-->
-             <!-- Footer -->
+              <!-- Footer -->
         <footer class="bg-dark text-center text-white" style="position: relative; top: 50px;">
           <!-- Grid container -->
           <div class="container p-4">
@@ -514,43 +514,6 @@ $numComments = $sqlNumComments->num_rows;
               ></a>
             </section>
             <!-- Section: Social media -->
-
-            <!-- Section: Form -->
-            <section class="">
-              <form action="">
-                <!--Grid row-->
-                <div class="row d-flex justify-content-center">
-                  <!--Grid column-->
-                  <div class="col-auto">
-                    <p class="pt-2">
-                      <strong>Sign up for our newsletter</strong>
-                    </p>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-md-5 col-12">
-                    <!-- Email input -->
-                    <div class="form-outline form-white mb-4">
-                      <input type="email" id="form5Example2" class="form-control" />
-                      <label class="form-label" for="form5Example2">Email address</label>
-                    </div>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-auto">
-                    <!-- Submit button -->
-                    <button type="submit" onclick="submit()" class="btn btn-outline-light mb-4">
-                      Subscribe
-                    </button>
-                  </div>
-                  <!--Grid column-->
-                </div>
-                <!--Grid row-->
-              </form>
-            </section>
-            <!-- Section: Form -->
 
             <!-- Section: Text -->
             <section class="mb-4">

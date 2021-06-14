@@ -272,17 +272,15 @@ $numComments = $sqlNumComments->num_rows;
 
 
         <div class="animeContent1 clearfix">
-            <div class="animeImage" style="max-width: 1400px; min-width: auto !important;"><img src="//0c86e2d1-madman-com-au.akamaized.net/shows/my-hero-academia_portrait-key-art-normal-small_101358.png"></div>
-            <div class="animeText1 w400" style="max-width: 800px; min-width: auto !important;"><b>My Hero Academia</b></div>
-            <div class="animeText2 w200" style="max-width: 600px; min-width: auto !important;"><b>2016 * 103 Episodes * English</b></div>
+            <div class="animeImage" style="max-width: 1400px; min-width: auto !important;"><img src="//0c86e2d1-madman-com-au.akamaized.net/shows/maken-ki_portrait-key-art-clean-thumb_45881.jpeg"></div>
+            <div class="animeText1 w400" style="max-width: 800px; min-width: auto !important;"><b>Maken-Ki</b></div>
+            <div class="animeText2 w200" style="max-width: 600px; min-width: auto !important;"><b>2011 * 11 Episodes * English</b></div>
             <div class="animeText2 w200" style="font-size: 15px; max-width: 800px; min-width: auto !important;"><b> Persons under the age of 15 must be accompanied by a parent or adult guardian</b></div>
-            <div class="animeText2 w400" style="position: relative; bottom: 380px; font-size: 25px; max-width: 800px; min-width: auto !important;">I Want to Be like You...The Strongest Hero!</div>
-            <div class="animeText2 w400" style="position: relative; bottom: 350px; font-size: 20px; max-width: 800px; min-width: auto !important;">Middle school student Izuku Midoriya wants to be a hero more than anything, but he's part of the 20% without a Quirk. Unwilling to give up his dream, he plans to take the exam and be accepted into a high school for budding heroes. Through a series of serendipitous events, he catches the eye of the greatest hero, All Might, who agrees to train him.</div>
+            <div class="animeText2 w400" style="position: relative; bottom: 380px; font-size: 25px; max-width: 800px; min-width: auto !important;">Quintuple the Trouble</div>
+            <div class="animeText2 w400" style="position: relative; bottom: 350px; font-size: 20px; max-width: 800px; min-width: auto !important;">Takeru enrolled in Tenbi Academy because the girl-to-guy ratio is, like, three girls for every guy. But this bevy of bombshells is actually a school where teens beef up their combat skills using a magic power thingy called a Maken.</div>
         </div>
         <div class="animeContent2 clearfix">
-            <center style="position: relative; top: 60px;"><iframe src="playerjs.html?file=[HD] https://storage.googleapis.com/phrasal-planet-313105/Y3BPBNBWR9G/st23_boku-no-hero-academia-2nd-season-dub-episode-3.1623533080.mp4
-,[SD] https://storage.googleapis.com/phrasal-planet-313105/Y3BPBNBWR9G/st23_boku-no-hero-academia-2nd-season-dub-episode-3.1623533080.mp4
-" type="text/html" width=1000 height=570 frameborder="0" allowfullscreen></iframe></center>
+            <center style="position: relative; top: 60px;"><iframe src="playerjs.html?[{"title":"1-season","folder":[{"title":"1-episode","file":"[SD]https://ndisk.cizgifilmlerizle.com/animes/Watch%20Kimetsu%20no%20Yaiba%20%28Dub%29%20Episode%201.mp4?st=q-4khXgta_KI4n8IKJquaA&e=1622498214,[HD]https://ndisk.cizgifilmlerizle.com/animes/Watch%20Kimetsu%20no%20Yaiba%20%28Dub%29%20Episode%201.720p.mp4?st=FgvhVRReFeYim67u5nccgQ&e=1622498214","poster":"https://gen.jut.su/uploads/preview/242/0/0/1_1554707039.jpg"},{"title":"2-episode","file":"[SD]https://ndisk.cizgifilmlerizle.com/animes/Watch%20Kimetsu%20no%20Yaiba%20%28Dub%29%20Episode%201.mp4?st=q-4khXgta_KI4n8IKJquaA&e=1622498214,[SD]https://ndisk.cizgifilmlerizle.com/animes/Watch%20Kimetsu%20no%20Yaiba%20%28Dub%29%20Episode%201.720p.mp4?st=FgvhVRReFeYim67u5nccgQ&e=1622498214","poster":"https://gen.jut.su/uploads/preview/242/0/0/2_1555314299.jpg"}]}]" type="text/html" width=1000 height=570 frameborder="0" allowfullscreen></iframe></center>
 
         </div>
 

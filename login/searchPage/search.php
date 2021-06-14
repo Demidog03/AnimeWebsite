@@ -3,7 +3,7 @@
 
 ?>
 <nav class="navbar navbar-expand-lg navbar-blue py-5 shadow-lg p-3">
-          <a class="navbar-brand" href="index.html" style="font-size: 35px; position: relative; left:40px; top: 3px;"><b>FinalAnime.com</b></a>
+          <a class="navbar-brand" href="http://localhost/login/pages/index1.php" style="font-size: 35px; position: relative; left:40px; top: 3px;"><b>FinalAnime.com</b></a>
           <button class="navbar-toggler" type="button" style="border: 3px solid blue" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -142,7 +142,7 @@
                     <a href='http://localhost/login/pages/".$row['a_id'].".php'>
                     <div style='font-size: 35px;'>".$row['a_title']."</div></a>
                     <p class='search_disc' style='font-size: 20px;'>".$row['a_disc']."</p>
-                    <img src=".$row['a_image']."/>
+                    <img src=".$row['a_image']."  >
                     <p>".$row['a_author']."</p>
                     <p>".$row['a_date']."</p>
                     </div></center>";

@@ -114,14 +114,14 @@ if (isset($_POST['logIn'])) {
     </script>
     <body>
         <nav class="navbar navbar-expand-lg navbar-blue py-5 shadow-lg p-3">
-          <a class="navbar-brand" href="index.html" style="font-size: 35px; position: relative; left:40px; top: 3px;"><b>FinalAnime.com</b></a>
+          <a class="navbar-brand" href="http://localhost/login/pages/index1.php" style="font-size: 35px; position: relative; left:40px; top: 3px;"><b>Dattebayo.com</b></a>
           <button class="navbar-toggler" type="button" style="border: 3px solid blue" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown" style="max-width: 800px; min-width: auto !important; position: relative; left: -85px;">
             <ul class="navbar-nav" style="max-width: 800px; min-width: auto !important; position: relative; top: 5px;">
               <li class="nav-item active" >
-                <a class="nav-link" href="index.html" style="color: #f700c8;font-size: 20px; width: 70px;"><b>Home</b> <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="http://localhost/login/pages/index1.php" style="color: #f700c8;font-size: 20px; width: 70px;"><b>Home</b> <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" style="color: #f700c8;font-size: 20px;" href="#animeRadio"><b>Radio</b></a>
@@ -326,51 +326,51 @@ if (isset($_POST['logIn'])) {
               <div class="card">
                 <h3 class="title">Card 1</h3>
                 <img class="image__img" src="images/my-hero-academia_portrait-key-art-normal-small_101358.png">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/1.php">
                     <div class="image__title">My Hero Academia</div>
                     <div class="image__year">2016</div>
                     <div class="image__desciption">
                       Middle school student Izuku Midoriya wants to be a hero more than anything, but he's part of the 20% without a Quirk.
                       Unwilling to give up his dream, he plans to take the exam and be accepted into a high school for budding heroes...
-                    </div>
+                    </div></a>
                 </div>
               </div>
                 <div class="card">
-                <h3 class="title">Card 1</h3>
+                <h3 class="title">Card 2</h3>
                 <img class="image__img" src="images/cardfight-vanguard-overdress_portrait-key-art-normal-small_101250.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/2.php">
                     <div class="image__title">Cardfight! Vanguard overDress</div>
                     <div class="image__year">2021</div>
                     <div class="image__desciption">
                       A new story in the Vanguard series awaits! Unable to cope with his unique abilities, Yu-yu Kondo flees home, encountering Vanguard in action.
-                      His journey leads to a world of lore, cardfights, and friendships...
-                    </div>
+                      His journey leads to a world of lore, cardfights...
+                    </div></a>
                 </div>
               </div>
 
               <div class="card">
                 <h3 class="title">Card 3</h3>
                 <img class="image__img" src="images/blue-reflection-ray_portrait-key-art-normal-small_101473.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/3.php">
                     <div class="image__title">Blue Reflection Ray</div>
                     <div class="image__year">2021</div>
                     <div class="image__desciption">
                       Optimistic Hiori can’t turn away anyone in need.
                       Awkward Ruka can’t make friends, even when she tries.
                       But they have one thing in common: they’re magical girls, Reflectors!
-                    </div>
+                    </div></a>
                 </div>
               </div>
               <div class="card">
                 <h3 class="title">Card 4</h3>
                 <img class="image__img" src="images/the-world-ends-with-you-the-animation_portrait-key-art-normal-small_100571.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/4.php">
                     <div class="image__title">The World Ends With You The Animation</div>
                     <div class="image__year">2021</div>
                     <div class="image__desciption">
                       Neku awakens in the middle of Shibuya's bustling Scramble Crossing with no memory of how he got there.
-                      Little does he know, he's been transported to an alternate plane of existence known as the Underground...
-                    </div>
+                      Little does he know, he's been transported to an alternate plane of...
+                    </div></a>
                 </div>
               </div>
             </div></center>
@@ -380,49 +380,49 @@ if (isset($_POST['logIn'])) {
 
             <center><div class="container">
               <div class="card">
-                <h3 class="title">Card 1</h3>
+                <h3 class="title">Card 5</h3>
                 <img class="image__img" src="images/back-arrow_portrait-key-art-normal-small_98953.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/5.php">
                     <div class="image__title">BACK ARROW</div>
                     <div class="image__year">2021</div>
                     <div class="image__desciption">
                       Lingalind is a land enclosed by the Wall.
                       The Wall covers, protects, cultivates, and nurtures the land.
                       One day in Edger, a village on the outskirts of Lingalind, a mysterious man named Back Arrow appears...
-                    </div>
+                    </div></a>
                 </div>
               </div>
                 <div class="card">
-                <h3 class="title">Card 1</h3>
+                <h3 class="title">Card 6</h3>
                 <img class="image__img" src="images/sd-gundam-world-heroes_portrait-key-art-normal-small_101662.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/6.php">
                     <div class="image__title">SD GUNDAM WORLD HEROES</div>
                     <div class="image__year">2021</div>
-                    <div class="image__desciption">G Gundam opens at the start of the 13th Gundam Fight in Future Century year 60 and follows Neo Japan's Domon Kasshu, fighter of his nation's Shining Gundam and bearer of the coveted "King of Hearts" martial arts crest.</div>
-                </div>
+                    <div class="image__desciption">G Gundam opens at the start of the 13th Gundam Fight in Future Century year 60 and follows Neo Japan's Domon Kasshu, fighter of his nation's Shining Gundam and bearer of the coveted "King of Hearts" martial...</div>
+                </div></a>
               </div>
 
               <div class="card">
-                <h3 class="title">Card 3</h3>
+                <h3 class="title">Card 7</h3>
                 <img class="image__img" src="images/ssssdynazenon_portrait-key-art-normal-small_100659.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/7.php">
                     <div class="image__title">SSSS.DYNAZENON</div>
                     <div class="image__year">2021</div>
                     <div class="image__desciption">
                       When Yomogi Asanaka, a first-year student at Fujiyokidai High School, meets Gauma, he claims to be a "kaiju user."
                       But the appearance of a kaiju followed by the entry of the gigantic robot, Dynazenon, backs up his mysterious words...
-                    </div>
+                    </div></a>
                 </div>
               </div>
               <div class="card">
-                <h3 class="title">Card 4</h3>
+                <h3 class="title">Card 8</h3>
                 <img class="image__img" src="images/hetalia-axis-powers_portrait-key-art-normal-small_101501.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/8.php">
                     <div class="image__title">Hetalia</div>
                     <div class="image__year">2009</div>
                     <div class="image__desciption">
                       Forget everything you learned in history class, and imagine all the nations of the world as cute guys hanging out on a wildly inappropriate reality show...
-                    </div>
+                    </div></a>
                 </div>
               </div>
             </div></center>
@@ -433,48 +433,48 @@ if (isset($_POST['logIn'])) {
             <center><p class="menuText2"><b>Latest series</b></p></center>
             <center><div class="container">
               <div class="card">
-                <h3 class="title">Card 1</h3>
+                <h3 class="title">Card 1</h3><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/9.php">
                 <img class="image__img" src="images/strike-witches-road-to-berlin_portrait-key-art-normal-small_96605.jpg">
                 <div class="image__overlay image__overlay--primary">
                     <div class="image__title">Strike Witches: Road to Berlin</div>
                     <div class="image__year">2020</div>
                     <div class="image__desciption">
                       After disbanding, the girls of the 501st Joint Fighter Wing return to face the threat of the Neuroi again, now joined by a new member, Shizuka Hattori.
-                    </div>
+                    </div></a>
                 </div>
               </div>
                 <div class="card">
-                <h3 class="title">Card 1</h3>
+                <h3 class="title">Card 2</h3>
                 <img class="image__img" src="images/bottom-tier-character-tomozaki_portrait-key-art-normal-small_98975.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/10.php">
                     <div class="image__title">Bottom-tier Character Tomozaki</div>
                     <div class="image__year">2021</div>
                     <div class="image__desciption">
                       Tomozaki Fumiya doesn’t fit in, well he wants to, but he doesn’t know how...
-                    </div>
+                    </div></a>
                 </div>
               </div>
 
               <div class="card">
                 <h3 class="title">Card 3</h3>
                 <img class="image__img" src="images/17312-763287.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/11.php">
                     <div class="image__title">K Project</div>
                     <div class="image__year">2012</div>
                     <div class="image__desciption">
                       Shiro is an easygoing teenager content with just being a student - until his seemingly perfect life is halted when a bloodthirsty clan, glowing red with fire, attempts to kill him in the streets...
-                    </div>
+                    </div></a>
                 </div>
               </div>
               <div class="card">
                 <h3 class="title">Card 4</h3>
                 <img class="image__img" src="images/link-click_portrait-key-art-normal-small_102073.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/12.php">
                     <div class="image__title">LINK CLICK</div>
                     <div class="image__year">2021</div>
                     <div class="image__desciption">
                       Using superpowers to enter their clientele’s photos one by one, Cheng Xiaoshi and Lu Guang take their work seriously at “Time Photo Studio,”
-                    </div>
+                    </div></a>
                 </div>
               </div>
             </div></center>
@@ -484,50 +484,50 @@ if (isset($_POST['logIn'])) {
 
             <center><div class="container">
               <div class="card">
-                <h3 class="title">Card 1</h3>
+                <h3 class="title">Card 5</h3>
                 <img class="image__img" src="images/the-quintessential-quintuplets_portrait-key-art-normal-small_101291.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/13.php">
                     <div class="image__title">The Quintessential Quintuplets</div>
                     <div class="image__year">2019</div>
                     <div class="image__desciption">
                       Futaro is about to take on five times the work and quintuple the trouble when he gets a job tutoring a set of quintuplets!
-                    </div>
+                    </div></a>
                 </div>
               </div>
                 <div class="card">
-                <h3 class="title">Card 1</h3>
+                <h3 class="title">Card 6</h3>
                 <img class="image__img" src="images/22859-1091507.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/14.php">
                     <div class="image__title">A Boring World Where the Concept of Dirty Jokes Doesn't Exist</div>
                     <div class="image__year">2015</div>
                     <div class="image__desciption">
                       It's 16 years since the "Law for Public Order and Morals in Healthy Child-Raising" banned coarse language in the country.
                       When Tanukichi Okuma enrolls...
-                    </div>
+                    </div></a>
                 </div>
               </div>
 
               <div class="card">
-                <h3 class="title">Card 3</h3>
+                <h3 class="title">Card 7</h3>
                 <img class="image__img" src="images/maken-ki_portrait-key-art-clean-thumb_45881.jpeg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/15.php">
                     <div class="image__title">Maken-Ki</div>
                     <div class="image__year">2011</div>
                     <div class="image__desciption">
                       Takeru enrolled in Tenbi Academy because the girl-to-guy ratio is, like, three girls for every guy.
                       But this bevy of bombshells is actually a school where teens beef up their combat skills using a magic power thingy called a Maken.
-                    </div>
+                    </div></a>
                 </div>
               </div>
               <div class="card">
-                <h3 class="title">Card 4</h3>
+                <h3 class="title">Card 8</h3>
                 <img class="image__img" src="images/23419-1189513.jpg">
-                <div class="image__overlay image__overlay--primary">
+                <div class="image__overlay image__overlay--primary"><a style="text-decoration: none; color: white;"href="http://localhost/login/pages/16.php">
                     <div class="image__title">KonoSuba - God's Blessing on This Wonderful World!</div>
                     <div class="image__year">2016</div>
                     <div class="image__desciption">
                       A traffic accident brings his disappointingly brief life to an end for Kazuma Sato, a hikikomori (shut-in) die-hard fan of games, anime...
-                    </div>
+                    </div></a>
                 </div>
               </div>
             </div></center>
@@ -541,11 +541,37 @@ if (isset($_POST['logIn'])) {
             </iframe></center>
         </div><a name="animeRadio"></a>
 
-        <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <div class="container3 clearfix" style="background: rgb(166,0,198);
+background: linear-gradient(0deg, rgba(166,0,198,1) 0%, rgba(247,170,0,1) 100%);">
+                <div class="searchIndexText">Want to watch more anime?</div>
+                <div style="color: white; text-align: center; position: relative; top: 120px; font-size: 50px;">Click on the button to find more content!</div>
+                <div class="text-box">
+                  <a href="http://localhost/login/searchPage/searchPage.php" class="btn btn-white btn-animate"><b>Click me</b></a>
+              </div>
+        </div>
+        <div class="container3 clearfix" style="background: rgb(3,33,246);
+background: linear-gradient(0deg, rgba(3,33,246,1) 0%, rgba(166,0,198,1) 100%);">
+                <div class="searchIndexText">Do not wanna watch anime?</div>
+                <div style="color: white; text-align: center; position: relative; top: 120px; font-size: 50px;">You can read some news!</div>
+                <div class="text-box">
+                  <a href="http://localhost/login/NewsPage/newsPage.php" class="btn btn-white btn-animate"><b>Let's read!</b></a>
+              </div>
+        </div>
+        <div class="container3 clearfix" style="background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(3,33,246,1) 95%);">
+                <div class="searchIndexText">Have you seen everything already?</div>
+                <div style="color: white; text-align: center; position: relative; top: 120px; font-size: 50px;">Then test your knowledge in a small quiz!</div>
+                <div class="text-box">
+                  <a href="http://localhost/login/Quiz/quiz.html" class="btn btn-white btn-animate"><b>Try me!</b></a>
+              </div>
+        </div>
+
+        
 <!--        script for login and register-->
 
+<script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script type="text/javascript">
 
     $(document).ready(function () {
